@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import CharactersList from '@/components/CharactersList.vue'
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="layout">
+    <CharactersList/>
   </main>
 </template>
+
+<style scoped>
+.layout {
+  padding: 0 100px;
+}
+</style>
